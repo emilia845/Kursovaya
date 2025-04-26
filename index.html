@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Rush</title>
+    <link rel="stylesheet" href="style.css"> <!-- Подключение стилей -->
+    <script src="script.js" defer></script> <!-- Подключение внешнего JavaScript файла -->
+</head>
+
+<body>
+    <!-- Навигационное меню -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Gold Rush</h1> <!-- Логотип или название ресторана -->
+            </div>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#about">О ресторане</a></li>
+                <li><a href="#booking">Бронирование</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Главная страница -->
+    <section id="home" class="main-section">
+        <h2>Добро пожаловать в Gold Rush</h2>
+        <p>Элегантная атмосфера, вкусные блюда и незабываемый опыт.</p>
+    </section>
+
+    <!-- Меню ресторана -->
+    <section id="menu" class="main-section">
+        <h2>Наше Меню</h2>
+        <div class="menu-items">
+            <div class="menu-item" style="background-image: url('https://img.freepik.com/free-photo/delicious-pasta-plate_23-2150690589.jpg?t=st=1745249837~exp=1745253437~hmac=ee14cc5a2f4f667486f1353f2450c4d26adb5f28c52506b69413dce583d9c850&w=740');">
+                <h3>Паста Карбонара</h3>
+                <span>16 AZN</span>
+            </div>
+              
+            <div class="menu-item" style="background-image: url('https://img.freepik.com/premium-photo/margarita-pizza-wooden-board-dark-table_252187-1748.jpg?w=740');">
+              <h3>Маргарита</h3>
+              <span>14 AZN</span>
+            </div>
+            <div class="menu-item" style="background-image: url('https://img.freepik.com/free-photo/healthy-vegetarian-risotto-with-fresh-parsley-garnish-generated-by-ai_24640-80365.jpg?t=st=1745249993~exp=1745253593~hmac=734e1db5e0810371ef071d7d09d037f45b4f3fd932c703ba2db05107d60412fe&w=1380');">
+              <h3>Ризотто с грибами</h3>
+              <span>18 AZN</span>
+            </div>
+            <div class="menu-item" style="background-image: url('https://img.freepik.com/free-photo/delicious-pasta-plate_23-2150690695.jpg?t=st=1745250025~exp=1745253625~hmac=33f268ecd47d3a91f8b0e8f75260983767969d475a13a4e126665a843ddc68ce&w=740');">
+              <h3>Лазанья Болоньезе</h3>
+              <span>17 AZN</span>
+            </div>
+            <div class="menu-item" style="background-image: url('https://img.freepik.com/free-photo/side-view-hand-pouring-olive-oil-fresh-salad-with-feta-cheese-tomatoe-cucumbers-white-bowl_140725-12169.jpg?ga=GA1.1.141737178.1744993598&semt=ais_hybrid&w=740');">
+              <h3>Салат Капрезе</h3>
+              <span>10 AZN</span>
+            </div>
+            <div class="menu-item" style="background-image: url('https://img.freepik.com/free-photo/slice-crispy-pizza-with-meat-cheese_140725-6974.jpg?ga=GA1.1.141737178.1744993598&semt=ais_hybrid&w=740');">
+              <h3>Пицца Диавола</h3>
+              <span>16 AZN</span>
+            </div>
+            <div class="menu-item" style="background-image: url('https://img.freepik.com/free-photo/front-view-delicious-tiramisu-concept_23-2148761670.jpg?ga=GA1.1.141737178.1744993598&semt=ais_hybrid&w=740');">
+              <h3>Тирамису</h3>
+              <span>9 AZN</span>
+            </div>
+            <div class="menu-item" style="background-image: url('https://img.freepik.com/free-photo/glass-terrine-with-yogurt-fruit_1220-134.jpg?ga=GA1.1.141737178.1744993598&semt=ais_hybrid&w=740');">
+              <h3>Панна-котта</h3>
+              <span>8 AZN</span>
+            </div>
+            <div class="menu-item" style="background-image: url('https://img.freepik.com/free-photo/noodle-soup-winter-meals-seeds_23-2148717411.jpg?ga=GA1.1.141737178.1744993598&semt=ais_hybrid&w=740');">
+              <h3>Минестроне</h3>
+              <span>11 AZN</span>
+            </div>
+            <div class="menu-item" style="background-image: url('https://img.freepik.com/free-photo/slices-bruschetta-black-wooden-board_23-2148698659.jpg?ga=GA1.1.141737178.1744993598&semt=ais_hybrid&w=740');">
+              <h3>Брускетта</h3>
+              <span>9 AZN</span>
+            </div>
+          </div>
+          
+    </section>
+
+    <!-- О ресторане + Фотогалерея -->
+    <section id="about" class="main-section">
+        <h2>О ресторане</h2>
+        <p>Gold Rush – это уютный ресторан с атмосферой старинной Италии, где каждая деталь отражает нашу любовь к хорошей кухне и гостеприимству.</p>
+        <p>Наши двери всегда открыты для местных жителей и туристов, и мы готовы подарить вам незабываемые моменты.</p>
+        
+        <!-- Отступ перед фотографиями -->
+        <div class="gallery" style="margin-top: 30px;">
+            <img src="restaurant-interior (1).jpg" alt="Ресторан 1">
+            <img src="restaurant-interior.jpg" alt="Ресторан 2">
+            <img src="color-breakfast-outdoors-glass-white.jpg" alt="Ресторан 3">
+        </div>
+    </section>
+
+<!-- Бронирование столика -->
+<section id="booking" class="main-section">
+    <h2>Бронирование</h2>
+    <form id="bookingForm">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="date">Дата бронирования:</label>
+        <input type="date" id="date" name="date" required>
+        
+        <label for="time">Время:</label>
+        <input type="time" id="time" name="time" required>
+        
+        <label for="people">Количество человек:</label>
+        <input type="number" id="people" name="people" min="1" required>
+
+        <button type="submit">Забронировать столик</button>
+    </form>
+</section>
+
+
+<!-- Футер -->
+<footer>
+    <p>Адрес: Баку, Азербайджан</p>
+    <p>Телефон: +994 12 345 67 89</p>
+    <p>Email: info@goldrush.az</p>
+    <p>&copy; 2025 Gold Rush. Все права защищены.</p>
+</footer>
+
+
+    <!-- Кнопка "Наверх" -->
+<button id="scrollToTopBtn" title="Наверх">↑</button>
+
+</body>
+</html>
