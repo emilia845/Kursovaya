@@ -381,12 +381,6 @@ footer p {
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-.ingredient-icon {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-  color: #d4a017;
-}
 
 .back-button {
   display: inline-block;
